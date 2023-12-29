@@ -1,7 +1,10 @@
-## ImageAutoSort - User Guide
+## Rfiling: Camera Photo Video Auto - User Guide
 
 ### Overview
-ImageAutoSort is a Python script designed to automate the sorting of images from a source directory to a destination directory. This script supports both copying and moving images, and handles file conflicts and metadata extraction. 
+Rfiling is a set of Python script designed to automate the sorting of images from a source directory to a destination directory. **Whether using FTP or an SD card, every time you finish taking photos and videos, you need to find a way to transfer them from temporary media to your computer or NAS, and then categorize them one by one. This process is repetitive and cumbersome. Thefore, I write these scripts  to solve the problem described above.** This set supports both copying and moving images, and handles file conflicts and metadata extraction. It consists of:
+- `MediaRenamer`: a script to rename video files with their metadata
+- `VideoAutoSort`: a script to help you copy and sort videos with thier creation date with duplication detection.
+- `ImageAutoSort`: same feature as VideoAutoSort, but dealing with images.
 
 ### Requirements
 - Python environment
@@ -20,7 +23,7 @@ ImageAutoSort is a Python script designed to automate the sorting of images from
 2. **Run the Script:** Execute the script with the defined parameters. 
 
 
-### Features of "*AutoSort"
+### Features of "Video/ImageAutoSort"
 - **Supported File Formats:** 
    - **ImageAutoSort**: Image file supported by ExifRead, including ARW (raw image format of Sony cameras). 
    - **VideoAutoSort**: Video files captured by sony camera (tested on ILCE A7C). It will automatically parse the video creation date from the file name and copy the video to the destination folder.
