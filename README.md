@@ -42,7 +42,7 @@ Will be renamed to ->
 
 
 ### Limitations and Future Improvements
-- **Demo Mode:**W Lists files and their operations without performing them.
+- **Demo Mode:** Lists files and their operations without performing them.
 - **Undo Feature and Visual Feedback:** Planned but not yet implemented.
 - **Error Handling:** More robust error handling and logging can be added.
 - **Drag-and-Drop:** A GUI can be added to allow drag-and-drop sorting functionality.
