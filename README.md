@@ -12,7 +12,7 @@ Rfiling is a set of Python script designed to automate the sorting of images fro
   - The version of `exifread` is better to be 2.3.1, which is the version used in development. We encontered bugs while using the latest version (3.0.0) in development.
 
 ### Installation
-1. Clone or download the ImageAutoSort script from the GitHub repository.
+1. Clone or download the scripts from the GitHub repository.
 2. Ensure Python is installed on your system.
 3. Install any missing libraries as needed.
 
