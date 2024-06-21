@@ -1,7 +1,8 @@
 ## Rfiling 一键拷卡：相机照片视频自动化整理
 
 ### 概述
-**无论是通过 FTP 无线传输还是用 SD 卡，每次拍完照片和视频后，你都得要把他们传输到电脑或 NAS，然后逐个分类，有够麻烦。Rfiling应运而生！** Rfiling 是我做的一组 Python 脚本，可以帮你自动做相机的拷卡和整理工作。Rfiling 支援照片(JPG, HEIC, RAW+JPG)和视频(MP4, Sony的MP4和它配套的XML），会提取元数据，能够自动处理文件冲突。你可以试试看！
+**无论是通过 FTP 无线传输还是用 SD 卡，每次拍完照片和视频后，你都得要把他们传输到电脑或 NAS，然后逐个分类，有够麻烦。**
+**为了解决这些困扰，Rfiling 应运而生！** Rfiling 是我做的一组 Python 脚本，可以帮你自动做相机的拷卡和整理工作。Rfiling 支援照片(JPG, HEIC, RAW+JPG)和视频(MP4, Sony的MP4和它配套的XML），会提取元数据，能够自动处理文件冲突。你可以试试看！
 
 Rfiling主要由三个函数组成：
 - `MediaRenamer`：通过读取视频元数据来重命名视频文件的脚本，可以帮你把Color Primaries/Transfer characteristics 写在文件名上。
